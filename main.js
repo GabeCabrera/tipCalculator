@@ -6,7 +6,7 @@ let getTip = document.getElementById(`tip`);
 let getTotal = document.getElementById(`total`);
 let calcBtn = document.getElementById(`calcButton`);
 
-calcBtn.addEventListener(`click`, calc)
+calcBtn.addEventListener(`click`, calc);
 
 function calc(e) {
 	e.preventDefault();
