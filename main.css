@@ -1,0 +1,120 @@
+/* main.css */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.hMain {
+	height: 50px;
+	width: auto;
+	color: white;
+	display: flex;
+	flex-grow: 1;
+	background: tan;
+	
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	
+	justify-content: center;
+	padding: 10px 0 0 0;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	filter: drop-shadow(0 3px 4px rgb(216, 216, 216))
+}
+
+.container{
+	height: 500px;
+	width: 500px;
+	
+	margin: 15px 0 0 10px;
+	padding: 10px;
+	
+	background-color: #e9edf3;
+	filter: drop-shadow(3px 3px 4px rgb(216, 216, 216))
+
+
+}
+
+.wrapper {
+	background-color: whitesmoke;
+	padding: 0;
+	border-radius: 3px;
+}
+
+.form-row {
+	display: flex;
+	justify-content: center;
+	padding: .5em;
+	list-style-type: none;
+
+}
+
+.form-row > input,
+.form-row > button {
+	margin: 0px 40px 0 0;
+	padding: .5em;
+	flex: 2;
+	outline: none;
+}
+
+.form-row > label {
+	padding: .5em .5em .5em 0;
+	color: rgb(85, 79, 73);
+	flex: 1;
+}
+
+.result-row {
+	display: flex;
+	justify-content: center;
+	padding: .5em;
+	list-style-type: none;
+
+}
+
+.result-row > input,
+.result-row> button {
+	margin: 0px 40px 0 0;
+	padding: .5em;
+	flex: 2;
+	outline: none;
+}
+.result-row > label {
+	padding: .5em .5em .5em 0;
+	color: rgb(85, 79, 73);
+	flex: 1;
+}
+
+
+.calcButton {
+	outline: none;
+	border: none;
+	color: rgba(122, 122, 122, 1);
+	background: #fff;
+	border-radius: 10px;
+}
+
+.calcButton:hover {
+	color: rgb(168, 167, 167);
+	background: rgb(252,252,252);
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder { 
+	/* Chrome/Opera/Safari */
+	color: rgba(122, 122, 122, 0.5);
+  }
+  ::-moz-placeholder { 
+	/* Firefox 19+ */
+	color: rgba(122, 122, 122, 0.5);
+  }
+  :-ms-input-placeholder { 
+	/* IE 10+ */
+	color: rgba(122, 122, 122, 0.5);
+  }
+  :-moz-placeholder { 
+	/* Firefox 18- */
+	color: rgba(122, 122, 122, 0.5);
+  }
+

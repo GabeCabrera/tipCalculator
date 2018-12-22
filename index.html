@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html>
+
+<head>
+	<title>Tip Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+	<header class="hMain">Tip Calculator</header>
+	<div id="container" class="container">
+		<form>
+			<ul id="wrapper">
+				<li class="form-row">
+					<!-- Bill input -->
+					<label for="bill">Bill</label>
+					<input type="text" name="bill" id="bill" placeholder="0.00" value="">
+				</li>
+				<li class="form-row">
+					<!-- Tip percent input -->
+					<label for="percent">Tip %</label>
+					<input type="text" name="percent" id="percent" placeholder="15" value="">
+				</li>
+				<li class="result-row">
+					<!-- Tip total readonly label -->
+					<label for="tip">Tip</label>
+					<input type="text" name="tip" id="tip" placeholder="0" readonly="readonly">
+				</li>
+				<li class="result-row">
+					<!--Total readonly label -->
+					<label for="total">Total</label>
+					<input type="text" name="total" id="total" placeholder="0" readonly="readonly">
+				</li>
+				<li class="result-row">
+					<button class="calcButton" id="calcButton">Calculate</button>
+				</li>
+
+			</ul>
+
+		</form>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
